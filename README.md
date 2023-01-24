@@ -30,10 +30,12 @@ sudo chmod +x /usr/bin/chatgpt
 
 ```
 mkdir ~/.chatgpt/
+```
+```
 cp ./chatgpt ~/.chatgpt/
 ```
 
-Then edit file to match your config
+### Then edit file to match your config
 
 BEARER expects your API Token that you can create at https://beta.openai.com/account/api-keys
 
