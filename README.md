@@ -1,18 +1,33 @@
-# chatgpt.sh
-Yet another tool that uses the OpenAI API so that you can use ChatGPT in your Terminal.
+<h1 align="center">
+  <br>
+  <a href="https://github.com/mkdirlove/fact.py"><img src="https://github.com/mkdirlove/fact.py/blob/main/logo.png" alt="fact.py"></a>
+  <br>
+  Yet another tool that uses the OpenAI API so that you can use ChatGPT in your Terminal.
+  <br>
+</h1>
 
-# Installation
-
-Copy script to a path dir and make it executable
+### Installation ang usage
 
 ```
 git clone https://github.com/mkdirlove/chatgpt.sh.git
+```
+```
 cd chatgpt.sh
+```
+```
+apt install git python3 python3-pip
+```
+```
+git clone https://github.com/mkdirlove/fact.py
+```
+```
 sudo cp ./chatgpt.sh /usr/bin/chatgpt
+```
+```
 sudo chmod +x /usr/bin/chatgpt
 ```
 
-Create path for the chatgpt config file and copy it in
+#Create path for the chatgpt config file and copy it in
 
 ```
 mkdir ~/.chatgpt/
