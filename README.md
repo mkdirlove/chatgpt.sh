@@ -13,16 +13,6 @@ git clone https://github.com/mkdirlove/chatgpt.sh.git
 ```
 ```
 cd chatgpt.sh
-
-┌─[mkdirlove@parrot]─[~/shellgpt]
-└──╼ $
-
-```
-```
-apt install git python3 python3-pip
-```
-```
-git clone https://github.com/mkdirlove/fact.py
 ```
 ```
 sudo cp ./chatgpt.sh /usr/bin/chatgpt
