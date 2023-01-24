@@ -6,8 +6,8 @@ Yet another tool that uses the OpenAI API so that you can use ChatGPT in your Te
 Copy script to a path dir and make it executable
 
 ```
-git clone https://github.com/kpatronas/shellgpt.git
-cd shellgpt
+git clone https://github.com/mkdirlove/chatgpt.sh.git
+cd chatgpt.sh
 sudo cp ./chatgpt.sh /usr/bin/chatgpt
 sudo chmod +x /usr/bin/chatgpt
 ```
@@ -27,36 +27,37 @@ BEARER expects your API Token that you can create at https://beta.openai.com/acc
 MODEL="text-davinci-003"
 TEMPERATURE="0"
 MAX_TOKEN=4000
-BEARER=""
+BEARER="YOUR_API_KEY"
 ```
 
-# How to use shellgpt
+# How to use chatgpt.sh
 
-Example: simple output
+Example1: generate python code
 ```
-$ chatgpt -p "print the 3 most used linux commands, new-line separated"
-ls
-cd
-mv
-```
+$ chatgpt -p "Create a python code that can add two numbers uisng function"
 
-Example: pipe output
-```
-$ chatgpt -p "print the 3 most used linux commands, new-line separated" | xargs -I {} bash -c 'echo "" && chatgpt -p "Create an example about the {} command
-" && sleep 10'
-
-The ls command is a command line utility used to list the contents of a directory. To use the ls command, open a terminal window and type \"ls\" followed by the directory you want to list. For example, to list the contents of the current directory, type \"ls\" and press enter. The output will be a list of all the files and folders in the directory.
-
-The cd command is used to change the current working directory in a command line interface. For example, if you are in the directory /home/user/Documents and you want to change to the directory /home/user/Pictures, you can use the command cd /home/user/Pictures. This will change the current working directory to /home/user/Pictures.
-
-The mv command is used to move or rename files and directories. For example, if you wanted to move a file named \"example.txt\" from the current directory to a directory named \"Documents\", you would use the following command:
-mv example.txt Documents/
-```
-Example: generate command and execute it
-```
-chatgpt -p "Create a bash command that will print current date minus one month"
-date --date=\"1 month ago\"
-$ chatgpt -p "Create a bash command that will print current date minus one month" | xargs -I {} bash -c '{}'
-Tue Dec 20 20:09:42 EET 2022
+def add_two_numbers(num1, num2):
+  return num1 + num2
+  
+print(add_two_numbers(2, 3)) # Output: 5
 ```
 
+Example2: generate shell script code
+```
+chatgpt -p "Create a bash script that can multiply two numbers from the user input"
+
+
+#!/bin/bash
+
+# Ask user for two numbers
+echo \"Please enter two numbers to multiply:\"
+read num1
+read num2
+
+# Calculate the product
+product=$((num1*num2))
+
+# Print the result
+echo \"The product of $num1 and $num2 is $product\"
+
+```
