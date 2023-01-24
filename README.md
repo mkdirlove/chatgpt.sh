@@ -27,7 +27,7 @@ sudo cp ./chatgpt.sh /usr/bin/chatgpt
 sudo chmod +x /usr/bin/chatgpt
 ```
 
-#Create path for the chatgpt config file and copy it in
+###Create path for the chatgpt config file and copy it in
 
 ```
 mkdir ~/.chatgpt/
