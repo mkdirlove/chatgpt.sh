@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/mkdirlove/fact.py"><img src="https://github.com/mkdirlove/fact.py/blob/main/logo.png" alt="fact.py"></a>
+  <a href=""><img src="" alt=""></a>
   <br>
   Yet another tool that uses the OpenAI API so that you can use ChatGPT in your Terminal.
   <br>
@@ -13,6 +13,10 @@ git clone https://github.com/mkdirlove/chatgpt.sh.git
 ```
 ```
 cd chatgpt.sh
+
+┌─[mkdirlove@parrot]─[~/shellgpt]
+└──╼ $
+
 ```
 ```
 apt install git python3 python3-pip
