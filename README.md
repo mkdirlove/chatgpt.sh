@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href=""><img src="" alt=""></a>
+  <a href="https://github.com/mkdirlove/chatgpt.sh"><img src="https://raw.githubusercontent.com/mkdirlove/chatgpt.sh/main/chatgpt.png" alt="chatgpt.sh"></a>
   <br>
   Yet another tool that uses the OpenAI API so that you can use ChatGPT in your Terminal.
   <br>
