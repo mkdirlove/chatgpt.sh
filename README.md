@@ -9,7 +9,7 @@
 ### Installation ang usage
 
 ```
-git clone https://github.com/mkdirlove/chatgpt.sh.git
+git clone https://github.com/mkdirlove/chatgpt.sh
 ```
 ```
 cd chatgpt.sh
